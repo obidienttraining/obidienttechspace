@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0; text-decoration: none; box-sizing: border-box;}
+/* body { background-color: black;} */
+/* THIS IS THE BEGINNING OF THE FEES SECTION */
+.container_1 { background-color: rgb(8, 128, 8); color: white; font-size: 25px; padding-bottom: 20%;}
+.icon_1 { position: absolute; left: 5%; top: 5%;}
+.fa-hourglass-start { position: absolute; left: 30%; color: black; font-size: 35px;}
+.icon_1 p { padding-top: 50%; font-size: 20px; padding-left: 15%;}
+.icon_1 h3 span {color: black; font-size: 20px; }
+
+.icon_2 { position: absolute; left: 20%; top: 5%;}
+.fa-calendar-day { position: absolute; left: 15%; color: black; font-size: 35px; }
+.icon_2 p { font-size: 20px; padding-top: 50%;}
+.icon_2 h3 span { font-size: 25px;}
+.icon_3 { position: absolute; left: 35%; top: 7%;}
+.fa-layer-group { color: black; font-size: 35px; padding-left: 18%;}
+.icon_3 p { font-size: 20px; padding-left: 20%; padding-top: 20%;}
+.icon_4 { position: absolute; left: 50%; top: 7%;}
+.fa-list { color: black; font-size: 35px; padding-left: 20%;}
+.icon_4 p { font-size: 20px; padding-top: 20%; padding-left: 10%;}
+.icon_5 { position: absolute; left: 65%; top: 7%;}
+.fa-screwdriver-wrench {color: black; font-size: 35px; padding-left: 20%; padding-top: 1%;}
+.icon_5 p { font-size: 20px; padding-left: 10%; padding-top: 20%;}
+.icon_6 { position: absolute; left: 80%; top: 8%;}
+.fa-credit-card { color: black; font-size: 35px; padding-left: 25%; }
+.icon_6 p { font-size: 20px; padding-top: 15%; padding-left: 25%;} 
+
+/* THIS IS THE END OF THE FEES SECTION */
+
+/* THIS IS MOBILE QUERY SECTION */
+
+@media only screen and (max-width: 700px )  { 
+    .container_1 { background-color: rgb(8, 128, 8); color: white; font-size: 25px; padding-bottom: 200%;}
+    .icon_1 { position: absolute; left: 37%; top: 5%;}
+.fa-hourglass-start { position: absolute; left: 30%; color: black; font-size: 35px;}
+.icon_1 p { padding-top: 50%; font-size: 20px; padding-left: 15%;}
+.icon_1 h3 span {color: black; font-size: 20px; }
+
+.icon_2 { position: absolute; left: 40%; top: 35%;}
+.fa-calendar-day { position: absolute; left: 15%; color: black; font-size: 35px; }
+.icon_2 p { font-size: 20px; padding-top: 50%;}
+.icon_2 h3 span { font-size: 25px;}
+.icon_3 { position: absolute; left: 40%; top: 65%;}
+.fa-layer-group { color: black; font-size: 35px; padding-left: 18%;}
+.icon_3 p { font-size: 20px; padding-left: 20%; padding-top: 20%;}
+.icon_4 { position: absolute; left: 40%; top: 90%;}
+.fa-list { color: black; font-size: 35px; padding-left: 20%;}
+.icon_4 p { font-size: 20px; padding-top: 20%; padding-left: 10%;}
+.icon_5 { position: absolute; left: 40%; top: 115%;}
+.fa-screwdriver-wrench {color: black; font-size: 35px; padding-left: 20%; padding-top: 1%;}
+.icon_5 p { font-size: 20px; padding-left: 10%; padding-top: 20%;}
+.icon_6 { position: absolute; left: 40%; top: 140%;}
+.fa-credit-card { color: black; font-size: 35px; padding-left: 25%; }
+.icon_6 p { font-size: 20px; padding-top: 15%; padding-left: 25%;} 
+
+}
